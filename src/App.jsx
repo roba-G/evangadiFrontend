@@ -13,7 +13,7 @@ import Home from "./Pages/Home/Home";
 import Landing from "./Pages/Landing/Landing";
 import AskQuestion from "./Pages/AskQuestion/AskQuestion";
 import QuestionDetail from "./Pages/QuestionDetail/QuestionDetail";
-import Settings from "./pages/Settings/Settings";
+import Settings from "./Pages/Settings/Settings";
 import ForgotPassword from "./Pages/ForgotPassword/ForgotPassword";
 import ResetPassword from "./Pages/ResetPassword/ResetPassword";
 import NotFound from "./Pages/NotFound/NotFound";
