@@ -2,8 +2,7 @@ import axios from "axios";
 
 const API_KEY = import.meta.env.VITE_GEMINI_API_KEY;
 
-const BASE_URL =
-  "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent";
+const BASE_URL = import.meta.env.VITE_GEMINI_BASE_URL;
 
 export const getAiSummary = async (questionTitle, answersArray) => {
   if (!API_KEY) return "API Key missing.";
