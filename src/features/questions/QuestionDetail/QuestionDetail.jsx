@@ -10,7 +10,7 @@ import { getTimeAgo } from "../../../utilis/formatTime";
 import { getAiSummary } from "../../../utilis/aiService";
 
 // Import Loader Component
-import Loader from "../../../components/Loader/Loader";
+import Loader from "../../../Components/Loader/Loader";
 
 import QuestionHeaderUI from "./QuestionHeaderUI";
 import classes from "./QuestionDetail.module.css";
