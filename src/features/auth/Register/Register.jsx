@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { registerUser } from "../authService";
 import classes from "./Register.module.css";
 import { useNavigate } from "react-router-dom";
-import Loader from "../../../components/Loader/Loader";
+import Loader from "../../../Components/Loader/Loader";
 
 const Register = ({ onSuccess }) => {
   const navigate = useNavigate();
